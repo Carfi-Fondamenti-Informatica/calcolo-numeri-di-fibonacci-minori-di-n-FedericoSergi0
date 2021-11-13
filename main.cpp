@@ -4,9 +4,7 @@ int main() {
     int n;
     int a=1, b=1, c;
     cin >> n;
-    if(n==1) {
-        cout << a << endl;
-    }else if(n==2) {
+   if(n<=2) {
         cout << a << endl;
         cout << b << endl;
     }else{
